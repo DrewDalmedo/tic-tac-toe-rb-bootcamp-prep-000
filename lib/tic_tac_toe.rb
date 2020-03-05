@@ -172,6 +172,10 @@ def play(board)
   '''
 
   while !(over?(board)) do
+    turn(board)
+  end
 
+  if won?(board)
+    puts "#{winner(board)} won!"
   end
 end
