@@ -127,3 +127,13 @@ def won?(board)
 
   return false
 end
+
+def full?(board)
+  board.each do |space|
+    if space == " "
+      return false
+    end
+  end
+
+  return false
+end
