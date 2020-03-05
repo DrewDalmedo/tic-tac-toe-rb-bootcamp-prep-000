@@ -135,5 +135,5 @@ def full?(board)
     end
   end
 
-  return false
+  return true
 end
