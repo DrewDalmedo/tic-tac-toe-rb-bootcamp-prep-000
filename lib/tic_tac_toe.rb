@@ -136,6 +136,8 @@ end
 
 def draw?(board)
   if full?(board) && !(won?(board))
+    
+  end
 
   return false
 end
