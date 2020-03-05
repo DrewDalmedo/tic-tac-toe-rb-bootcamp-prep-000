@@ -173,6 +173,7 @@ def play(board)
 
   while !(over?(board)) do
     turn(board)
+    display_board(board)
   end
 
   if won?(board)
