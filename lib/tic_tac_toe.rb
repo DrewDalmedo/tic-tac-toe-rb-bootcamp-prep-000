@@ -172,6 +172,6 @@ def play(board)
   '''
 
   while !(over?(board)) do
-    
+
   end
 end
