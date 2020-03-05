@@ -149,3 +149,8 @@ def over?(board)
 
   return false
 end
+
+def winner(board)
+  winning_combo = won?(board)
+  return winning_combo[0]
+end
