@@ -55,7 +55,7 @@ def turn(board)
   if !(index >= 0 && index <= 8)
     turn(board)
   else
-    move(board, index, "X")
+    move(board, index, current_player(board))
   end
 end
 
@@ -171,5 +171,7 @@ def play(board)
   end
   '''
 
-  
+  while !(over?(board)) do
+    
+  end
 end
