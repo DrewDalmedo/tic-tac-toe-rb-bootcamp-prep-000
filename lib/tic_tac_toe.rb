@@ -157,3 +157,5 @@ def winner(board)
   end
   return board[winning_combo[0]]
 end
+
+def play(board)
